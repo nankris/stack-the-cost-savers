@@ -1,0 +1,27 @@
+Bug report: prices use the wrong tax rate (it should be 10%). The bug is in `T07_multihunk/broken.js`. Check with `cd T07_multihunk && node test.js` (it should print OK / exit 0). Do not edit any test.js and don't change other packages.
+
+Current `T07_multihunk/broken.js`:
+```js
+const TAX = 0.05; // should be 0.1
+
+function priceWithTax(net) {
+  return net * (1 + TAX);
+}
+
+function label() {
+  return "tax=5%"; // should reflect 10%
+}
+
+module.exports = { TAX, priceWithTax, label };
+
+```
+`T07_multihunk/test.js`:
+```js
+const assert = require("assert");
+const { TAX, priceWithTax, label } = require("./broken");
+assert.strictEqual(TAX, 0.1);
+assert.ok(Math.abs(priceWithTax(100) - 110) < 1e-9);
+assert.strictEqual(label(), "tax=10%");
+console.log("OK");
+
+```

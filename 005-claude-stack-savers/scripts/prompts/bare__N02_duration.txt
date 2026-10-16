@@ -1,0 +1,1 @@
+This folder holds 14 small JavaScript packages. Bug report: the duration parser ignores the seconds part (e.g. "1h2m3s"). Find the package and fix its code so that package's test.js passes. Do not edit any test.js or run_all.js, and don't change other packages.

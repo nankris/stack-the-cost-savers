@@ -1,0 +1,94 @@
+start 1792020343 jobs=30 P=5
+baseline__N01_median__r1: pass=True sub=(2, 14) tok=106447 cc=20758 cr=84975 out=706 cost=$0.19721099999999997 turns=5 tools={'Bash': 3, 'Edit': 1} wall=13s 5h=0.4 7d=0.77 
+stacked__N01_median__r1: pass=True sub=(2, 14) tok=52398 cc=5393 cr=46594 out=403 cost=$0.060554800000000006 turns=4 tools={'Read': 1, 'Edit': 1, 'Bash': 1} wall=13s 5h=0.41 7d=0.77 
+frontload__N01_median__r1: pass=True sub=(2, 14) tok=74954 cc=16541 cr=57716 out=691 cost=$0.1577152 turns=4 tools={'Bash': 2, 'Edit': 1} wall=15s 5h=0.41 7d=0.77 
+lean__N01_median__r1: pass=True sub=(2, 14) tok=49248 cc=4945 cr=43779 out=516 cost=$0.058667800000000006 turns=4 tools={'Bash': 3} wall=16s 5h=0.41 7d=0.77 
+claude_md__N01_median__r1: pass=True sub=(2, 14) tok=98596 cc=16581 cr=81652 out=355 cost=$0.1561104 turns=4 tools={'Bash': 3} wall=16s 5h=0.41 7d=0.77 
+stacked__N02_duration__r1: pass=True sub=(2, 14) tok=25864 cc=5072 cr=20543 out=245 cost=$0.0496006 turns=2 tools={'Bash': 1} wall=7s 5h=0.44 7d=0.77 
+frontload__N02_duration__r1: pass=True sub=(2, 14) tok=49695 cc=16301 cr=32972 out=418 cost=$0.1453784 turns=2 tools={'Bash': 1} wall=10s 5h=0.44 7d=0.77 
+baseline__N02_duration__r1: pass=True sub=(2, 14) tok=103691 cc=21765 cr=81342 out=576 cost=$0.20194040000000002 turns=4 tools={'Bash': 3} wall=13s 5h=0.44 7d=0.77 
+lean__N02_duration__r1: pass=True sub=(2, 14) tok=49348 cc=5048 cr=43763 out=529 cost=$0.0597486 turns=4 tools={'Bash': 3} wall=11s 5h=0.44 7d=0.77 
+claude_md__N02_duration__r1: pass=True sub=(2, 14) tok=98537 cc=16543 cr=81621 out=365 cost=$0.15600020000000003 turns=4 tools={'Bash': 3} wall=14s 5h=0.44 7d=0.77 
+stacked__N03_csv__r1: pass=True sub=(2, 14) tok=41712 cc=12904 cr=28233 out=571 cost=$0.1203146 turns=2 tools={'Bash': 1} wall=8s 5h=0.48 7d=0.78 
+frontload__N03_csv__r1: pass=True sub=(2, 14) tok=61405 cc=24553 cr=35814 out=1034 cost=$0.2242828 turns=2 tools={'Bash': 1} wall=14s 5h=0.48 7d=0.78 
+baseline__N03_csv__r1: pass=True sub=(2, 14) tok=134895 cc=22237 cr=111432 out=1216 cost=$0.2245424 turns=6 tools={'Bash': 4, 'Edit': 1} wall=24s 5h=0.49 7d=0.78 
+claude_md__N03_csv__r1: pass=True sub=(2, 14) tok=124407 cc=16916 cr=106795 out=686 cost=$0.170447 turns=5 tools={'Bash': 4} wall=23s 5h=0.49 7d=0.78 
+lean__N03_csv__r1: pass=True sub=(2, 14) tok=78023 cc=10470 cr=66405 out=1138 cost=$0.119841 turns=6 tools={'Bash': 4, 'Edit': 1} wall=22s 5h=0.49 7d=0.78 
+claude_md__T05_stale__r1: pass=True sub=(1, 14) tok=90858 cc=16150 cr=74261 out=439 cost=$0.15286419999999998 turns=4 tools={'Bash': 3} wall=13s 5h=0.52 7d=0.78 
+stacked__T05_stale__r1: pass=True sub=(1, 14) tok=37512 cc=4635 cr=32526 out=345 cost=$0.050509200000000004 turns=3 tools={'Bash': 2} wall=8s 5h=0.53 7d=0.78 
+baseline__T05_stale__r1: pass=True sub=(1, 14) tok=160286 cc=22546 cr=136491 out=1237 cost=$0.23245420000000003 turns=6 tools={'Bash': 5} wall=24s 5h=0.53 7d=0.78 
+lean__T05_stale__r1: pass=True sub=(1, 14) tok=62824 cc=5517 cr=56371 out=926 cost=$0.0739702 turns=5 tools={'Bash': 4} wall=17s 5h=0.54 7d=0.78 
+baseline__T07_multihunk__r1: pass=True sub=(2, 14) tok=72889 cc=16018 cr=56398 out=467 cost=$0.1487876 turns=3 tools={'Bash': 2} wall=11s 5h=0.56 7d=0.78 
+claude_md__T07_multihunk__r1: pass=True sub=(2, 14) tok=73541 cc=16155 cr=57062 out=318 cost=$0.1470364 turns=3 tools={'Bash': 2} wall=10s 5h=0.57 7d=0.79 
+frontload__T05_stale__r1: pass=True sub=(1, 14) tok=70647 cc=16973 cr=52237 out=1431 cost=$0.1748754 turns=4 tools={'Bash': 2, 'Edit': 1} wall=21s 5h=0.56 7d=0.78 
+lean__T07_multihunk__r1: pass=True sub=(2, 14) tok=48804 cc=4557 cr=43705 out=534 cost=$0.05590900000000001 turns=4 tools={'Bash': 3} wall=10s 5h=0.57 7d=0.79 
+frontload__T07_multihunk__r1: pass=True sub=(2, 14) tok=41670 cc=15812 cr=25386 out=468 cost=$0.1409492 turns=2 tools={'Bash': 1} wall=11s 5h=0.57 7d=0.79 
+stacked__T07_multihunk__r1: pass=True sub=(2, 14) tok=24653 cc=4402 cr=20036 out=211 cost=$0.0434592 turns=2 tools={'Bash': 1} wall=10s 5h=0.58 7d=0.79 
+lean__T10_replace_all__r1: pass=True sub=(2, 14) tok=50045 cc=5160 cr=44423 out=454 cost=$0.059276600000000006 turns=4 tools={'Bash': 3} wall=12s 5h=0.6 7d=0.79 
+baseline__T10_replace_all__r1: pass=True sub=(2, 14) tok=92596 cc=16112 cr=76009 out=467 cost=$0.1534698 turns=4 tools={'Bash': 3} wall=16s 5h=0.6 7d=0.79 
+claude_md__T10_replace_all__r1: pass=True sub=(2, 14) tok=97879 cc=16135 cr=81399 out=337 cost=$0.15213179999999998 turns=4 tools={'Bash': 3} wall=16s 5h=0.61 7d=0.79 
+frontload__T10_replace_all__r1: pass=True sub=(2, 14) tok=43694 cc=15766 cr=27586 out=338 cost=$0.1384212 turns=2 tools={'Bash': 1} wall=12s 5h=0.61 7d=0.79 
+stacked__T10_replace_all__r1: pass=True sub=(2, 14) tok=24392 cc=4235 cr=20002 out=151 cost=$0.0409164 turns=2 tools={'Bash': 1} wall=11s 5h=0.62 7d=0.79 
+done 1792020437
+start 1792020469 jobs=60 P=5
+skip baseline__N01_median__r1: already in runs.csv
+skip frontload__N01_median__r1: already in runs.csv
+skip claude_md__N01_median__r1: already in runs.csv
+skip stacked__N01_median__r1: already in runs.csv
+skip lean__N01_median__r1: already in runs.csv
+skip lean__N02_duration__r1: already in runs.csv
+skip baseline__N02_duration__r1: already in runs.csv
+skip claude_md__N02_duration__r1: already in runs.csv
+skip stacked__N02_duration__r1: already in runs.csv
+skip frontload__N02_duration__r1: already in runs.csv
+skip lean__N03_csv__r1: already in runs.csv
+skip claude_md__N03_csv__r1: already in runs.csv
+skip baseline__N03_csv__r1: already in runs.csv
+skip frontload__N03_csv__r1: already in runs.csv
+skip stacked__N03_csv__r1: already in runs.csv
+skip claude_md__T05_stale__r1: already in runs.csv
+skip frontload__T05_stale__r1: already in runs.csv
+skip baseline__T05_stale__r1: already in runs.csv
+skip lean__T05_stale__r1: already in runs.csv
+skip stacked__T05_stale__r1: already in runs.csv
+skip claude_md__T07_multihunk__r1: already in runs.csv
+skip stacked__T07_multihunk__r1: already in runs.csv
+skip frontload__T07_multihunk__r1: already in runs.csv
+skip baseline__T07_multihunk__r1: already in runs.csv
+skip lean__T07_multihunk__r1: already in runs.csv
+skip claude_md__T10_replace_all__r1: already in runs.csv
+skip baseline__T10_replace_all__r1: already in runs.csv
+skip lean__T10_replace_all__r1: already in runs.csv
+skip frontload__T10_replace_all__r1: already in runs.csv
+skip stacked__T10_replace_all__r1: already in runs.csv
+stacked__N01_median__r2: pass=True sub=(2, 14) tok=25774 cc=4960 cr=20569 out=241 cost=$0.0486298 turns=2 tools={'Bash': 1} wall=10s 5h=0.68 7d=0.79 
+frontload__N01_median__r2: pass=True sub=(2, 14) tok=49660 cc=16130 cr=32999 out=527 cost=$0.14619580000000001 turns=2 tools={'Bash': 1} wall=15s 5h=0.7 7d=0.8 
+claude_md__N01_median__r2: pass=True sub=(2, 14) tok=98545 cc=16562 cr=81628 out=347 cost=$0.1557936 turns=4 tools={'Bash': 3} wall=15s 5h=0.7 7d=0.8 
+baseline__N01_median__r2: pass=True sub=(2, 14) tok=106313 cc=20670 cr=84959 out=676 cost=$0.19590380000000002 turns=5 tools={'Bash': 3, 'Edit': 1} wall=16s 5h=0.7 7d=0.8 
+lean__N01_median__r2: pass=True sub=(2, 14) tok=75290 cc=9363 cr=65110 out=807 cost=$0.104106 turns=6 tools={'Bash': 4, 'Edit': 1} wall=18s 5h=0.7 7d=0.8 
+baseline__N02_duration__r2: pass=True sub=(2, 14) tok=97865 cc=16551 cr=80823 out=483 cost=$0.1582646 turns=4 tools={'Bash': 3} wall=15s 5h=0.72 7d=0.8 
+stacked__N02_duration__r2: pass=True sub=(2, 14) tok=25739 cc=5009 cr=20534 out=192 cost=$0.0480348 turns=2 tools={'Bash': 1} wall=10s 5h=0.74 7d=0.8 
+frontload__N02_duration__r2: pass=True sub=(2, 14) tok=45218 cc=16569 cr=28126 out=519 cost=$0.14857320000000002 turns=2 tools={'Bash': 1} wall=14s 5h=0.74 7d=0.8 
+lean__N02_duration__r2: pass=True sub=(2, 14) tok=49316 cc=5034 cr=43738 out=536 cost=$0.0597716 turns=4 tools={'Bash': 3} wall=17s 5h=0.74 7d=0.8 
+claude_md__N02_duration__r2: pass=True sub=(2, 14) tok=94664 cc=16964 cr=77273 out=419 cost=$0.1595786 turns=4 tools={'Bash': 3} wall=22s 5h=0.76 7d=0.8 
+stacked__N03_csv__r2: pass=True sub=(2, 14) tok=41461 cc=12778 cr=28227 out=452 cost=$0.11692539999999998 turns=2 tools={'Bash': 1} wall=7s 5h=0.8 7d=0.8 
+claude_md__N03_csv__r2: pass=True sub=(2, 14) tok=124687 cc=17101 cr=106837 out=739 cost=$0.1729954 turns=6 tools={'Bash': 4, 'Edit': 1} wall=17s 5h=0.79 7d=0.8 
+baseline__N03_csv__r2: pass=True sub=(2, 14) tok=170205 cc=23950 cr=144804 out=1439 cost=$0.24938880000000002 turns=7 tools={'Bash': 5, 'Edit': 1} wall=26s 5h=0.79 7d=0.8 
+frontload__N03_csv__r2: pass=True sub=(2, 14) tok=66335 cc=24488 cr=40664 out=1179 cost=$0.22763280000000002 turns=3 tools={'Write': 1, 'Bash': 1} wall=18s 5h=0.8 7d=0.8 
+lean__N03_csv__r2: pass=True sub=(2, 14) tok=62758 cc=5355 cr=56289 out=1104 cost=$0.0762178 turns=5 tools={'Bash': 4} wall=20s 5h=0.8 7d=0.8 
+claude_md__T05_stale__r2: pass=True sub=(1, 14) tok=116042 cc=16448 cr=98979 out=605 cost=$0.1635198 turns=5 tools={'Bash': 4} wall=16s 5h=0.84 7d=0.81 
+stacked__T05_stale__r2: pass=True sub=(1, 14) tok=37682 cc=4716 cr=32535 out=425 cost=$0.05275900000000001 turns=3 tools={'Bash': 2} wall=10s 5h=0.84 7d=0.81 
+baseline__T05_stale__r2: pass=True sub=(1, 14) tok=117826 cc=16386 cr=100653 out=777 cost=$0.1667986 turns=5 tools={'Bash': 4} wall=20s 5h=0.84 7d=0.81 
+lean__T05_stale__r2: pass=True sub=(1, 14) tok=48793 cc=4657 cr=43318 out=810 cost=$0.0621516 turns=4 tools={'Bash': 3} wall=19s 5h=0.84 7d=0.81 
+frontload__T05_stale__r2: pass=True sub=(1, 14) tok=99478 cc=16579 cr=81686 out=1205 cost=$0.1731012 turns=5 tools={'Bash': 3, 'Edit': 1} wall=21s 5h=0.85 7d=0.81 
+claude_md__T07_multihunk__r2: pass=True sub=(2, 14) tok=69030 cc=16415 cr=52273 out=336 cost=$0.1485186 turns=3 tools={'Bash': 2} wall=14s 5h=0.87 7d=0.81 
+lean__T07_multihunk__r2: pass=True sub=(2, 14) tok=36390 cc=4468 cr=31449 out=467 cost=$0.051397799999999993 turns=3 tools={'Bash': 2} wall=15s 5h=0.87 7d=0.81 
+baseline__T07_multihunk__r2: pass=True sub=(2, 14) tok=68542 cc=16267 cr=51783 out=486 cost=$0.1502366 turns=3 tools={'Bash': 2} wall=19s 5h=0.87 7d=0.81 
+frontload__T07_multihunk__r2: pass=True sub=(2, 14) tok=44036 cc=15949 cr=27618 out=465 cost=$0.1424316 turns=2 tools={'Bash': 1} wall=13s 5h=0.87 7d=0.81 
+stacked__T07_multihunk__r2: pass=True sub=(2, 14) tok=24560 cc=4320 cr=20036 out=200 cost=$0.0425832 turns=2 tools={'Bash': 1} wall=13s 5h=0.89 7d=0.81 
+claude_md__T10_replace_all__r2: pass=True sub=(2, 14) tok=93715 cc=16363 cr=77005 out=339 cost=$0.153117 turns=4 tools={'Bash': 3} wall=14s 5h=0.9 7d=0.81 
+baseline__T10_replace_all__r2: pass=True sub=(2, 14) tok=92472 cc=16088 cr=75967 out=409 cost=$0.15210939999999998 turns=4 tools={'Bash': 3} wall=17s 5h=0.9 7d=0.81 
+lean__T10_replace_all__r2: pass=True sub=(2, 14) tok=48174 cc=4360 cr=43340 out=466 cost=$0.052899999999999996 turns=4 tools={'Bash': 3} wall=14s 5h=0.9 7d=0.81 
+stacked__T10_replace_all__r2: pass=True sub=(2, 14) tok=24417 cc=4249 cr=20002 out=162 cost=$0.0412484 turns=2 tools={'Bash': 1} wall=8s 5h=0.91 7d=0.81 
+frontload__T10_replace_all__r2: pass=True sub=(2, 14) tok=43694 cc=15843 cr=27586 out=261 cost=$0.13749719999999999 turns=2 tools={'Bash': 1} wall=14s 5h=0.91 7d=0.81 
+done 1792020577
